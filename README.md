@@ -70,7 +70,7 @@ index.js:98 details of person  2 : {person: 'Name 3', age: '8', company: 'GUVI g
  2. Create your own resume data in JSON format
  .................................
 
- let sreekanth_Resume={
+ let Abdul Hadhi_Resume={
 
     Name:"A Abdul Hadhi",
     DOB:"04-12-1999",
