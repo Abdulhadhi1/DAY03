@@ -1,6 +1,6 @@
  1)
     var obj = [
-          { person: "Name 1", age: "2", company: "GUVI" },
+          { person: "Name 5", age: "6", company: "GUVI" },
           { person: "Name 2", age: "5", company: "GUVI geek" },
           { person: "Name 3", age: "8", company: "GUVI geek network" },
         ]
@@ -9,7 +9,7 @@
    JSON ARRAY:
    ............. 
       var obj = [
-          { person: "Name 1", age: "2", company: "GUVI" },
+          { person: "Name 5", age: "6", company: "GUVI" },
           { person: "Name 2", age: "5", company: "GUVI geek" },
           { person: "Name 3", age: "8", company: "GUVI geek network" },
         ]
@@ -22,11 +22,7 @@
              console.log("details of person ",i, ":" , obj[i] )
          }
 
-    OUTPUT:
-      --------
-               details of person  0 : {person: 'Name 1', age: '2', company: 'GUVI'}
-index.js:104   details of person  1 : {person: 'Name 2', age: '5', company: 'GUVI geek'}
-index.js:104   details of person  2 : {person: 'Name 3', age: '8', company: 'GUVI geek network'}
+..............................................
   
 
   FOR IN LOOP:
@@ -37,11 +33,7 @@ index.js:104   details of person  2 : {person: 'Name 3', age: '8', company: 'GUV
 
      }
 
-   OUTPUT:
-  ----
-details of person  0 : {person: 'Name 1', age: '2', company: 'GUVI'}
-index.js:89 details of person  1 : {person: 'Name 2', age: '5', company: 'GUVI geek'}
-index.js:89 details of person  2 : {person: 'Name 3', age: '8', company: 'GUVI geek network'}
+..........................................................
     
    FOR OF LOOP:
    .............
@@ -49,23 +41,16 @@ index.js:89 details of person  2 : {person: 'Name 3', age: '8', company: 'GUVI g
        {
             console.log("details of a person are :",person)
        }
-   OUTPUT:
-  .............  
-details of a person are : {person: 'Name 1', age: '2', company: 'GUVI'}
-index.js:95 details of a person are : {person: 'Name 2', age: '5', company: 'GUVI geek'}
-index.js:95 details of a person are : {person: 'Name 3', age: '8', company: 'GUVI geek network'}
+.........................................................................
 
   FOR EACH LOOP:
  ................
  obj.forEach((person, details)=>console.log("details of person ",details, ":" , person ))
+ 
+ 
+.....................................................................................................................
 
-    OUTPUT:
-  ...........
-details of person  0 : {person: 'Name 1', age: '2', company: 'GUVI'}
-index.js:98 details of person  1 : {person: 'Name 2', age: '5', company: 'GUVI geek'}
-index.js:98 details of person  2 : {person: 'Name 3', age: '8', company: 'GUVI geek network'}
 
-..................................................
 
  2. Create your own resume data in JSON format
  .................................
