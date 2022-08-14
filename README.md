@@ -66,7 +66,7 @@
     Languages_known :"tamil,english"  
   }
 
- for(let details in sreekanth_Resume)
+ for(let details in Abdul Hadhi_Resume)
       {
              console.log(`${details}:$Abdul Hadhi_Resume[details]}`)
        }
